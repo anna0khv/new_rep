@@ -61,33 +61,56 @@ h1, h2, h3, p, a, li{
     margin-right: 2.2rem;
     color: var(--text-color);
 }
+#link_start0 {
+    
+}
 #we1 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
 }
-.c_button_start {
-    
-    border-radius: 1.5rem;
-    color: var(--main-color);
-    background-color: var(--text-color);
+#buttons {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+    justify-content: space-between;
+    width: 30.9rem;
+    margin: auto;
+}
+.c_button_start {
+    width: 14.6rem;
+    margin: auto;
 }
 .link_start {
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 1.2rem;
     color: var(--main-color);
-    display: inline-flex;
     padding: 1rem 3.5rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 2.4rem;
     background: #E2E2E2;
+    display: flex;
+}
+#but0 {
+    display: flex;
+    justify-content: space-between;
+    
+}
+#i0{
+    margin-right: 1.0rem;
+    
+}
+.link2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem 3.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 2.4rem;
+    border: 1px solid #E2E2E2;
 }
 #start_div {
     /*background-image: url("../img/photo1.jpeg");*/
@@ -242,11 +265,11 @@ h1, h2, h3, p, a, li{
     margin-bottom: 1.0rem;
     color: var(--text-color);
 }
-#button_about_us {
+.button_about_us {
     margin-top: 2.5rem;
 }
 #about_photo {
-    margin-top: 5.0rem;
+    margin-top: 6.6rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
 }
@@ -342,16 +365,7 @@ h1, h2, h3, p, a, li{
     margin-right: 2.5rem;
     color: var(--text-color);
 }
-.link2{
-    display: inline-flex;
-    padding: 0.625rem 2.1875rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-    border-radius: 1.5rem;
-    border: 1px solid #E2E2E2;
-}
+
 .c_photo {
     width: 34.0rem;
     height: 24.2rem;
