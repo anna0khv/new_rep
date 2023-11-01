@@ -2,13 +2,14 @@
 :root {
     --main-color: rgb(14, 14, 14);
     --text-color: rgb(226,226,226);
-    --text-new-color: #8D8D8D;
+    --text-new-color: rgb(226,226,226);
     --footer-color: rgb(56,54,56);
     font-size: 62.5%;
     text-align: center;
-    
-  }
-
+}
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: var(--main-color);
     
@@ -25,14 +26,27 @@ h1, h2, h3, p, a, li{
     line-height: 2.4rem;
 }
 /*HEADER*/
+#div_nav {
+    margin-top: 4.0rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+#button0 {
+    background-color: var(--main-color);
+    border: none;
+}
 .c_nav {
     font-size: 1.8rem;
     font-weight: 400;
 }
-/*HOME*/
-#button0 {
-    background-color: var(--main-color);
+#contact_us {
+    display: flex;
+    padding: 1.2rem 5.0rem;
+    justify-content: center;
+    border-radius: 2.4rem;
+    border: 1px solid var(--text-color);
 }
+/*HOME*/
 #slogan_main {
     font-family: 'Nunito', sans-serif;
     font-size: 2.8rem;
@@ -40,14 +54,12 @@ h1, h2, h3, p, a, li{
     line-height: normal;
     margin-top: 10.2rem;
     margin-bottom: 2.0rem;
-    margin-left: 3.42rem;
-    margin-right: 2.4rem;
 }
 #home_text{
     margin-bottom: 2.0rem;
     margin-left: 2.2rem;
     margin-right: 2.2rem;
-    color: #8D8D8D;
+    color: var(--text-color);
 }
 #we1 {
     margin-left: 2.5rem;
@@ -78,7 +90,7 @@ h1, h2, h3, p, a, li{
     background: #E2E2E2;
 }
 #start_div {
-    background-image: url("../img/photo1.jpeg");
+    /*background-image: url("../img/photo1.jpeg");*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: 33rem 22.4rem;
@@ -86,18 +98,57 @@ h1, h2, h3, p, a, li{
     height: 251.23px;
     border-radius: 0.75rem;
     margin:0 auto;
-    padding: 20px 20px;
     margin-top: 5.0rem;
     margin-bottom: 10.0rem;
 }
-.c_star{
+#start_img {
+    width: 33rem;
+    height: 22.4rem;
+    border-radius: 1.2rem;
+    margin:0 0;
+    position: absolute;
+}
+#relative_block {
+    position: absolute;
+    justify-content: center;
     display: flex;
-    justify-content: flex-start;
+    justify-content: start;
+    align-items: start;
+    margin: 5.0rem 2.5rem 10rem 2.5rem;
+}
+#re1 {
+
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    z-index: 9;
+    left:27rem;
+    top: 17.7rem;
+    border-radius: 0.6rem;
+}
+#start_block{
+    z-index: -1;
+    position: absolute;
+    padding: 1rem;
+}
+.c_star{
     background-color: var(--main-color);
     border-radius: 6px;
     width: 99px;
     height: 53px;
-    -shrink: 0;
+}
+#c_star0 {
+    display: flex;
+    justify-content: space-between;
+    width: 6.7rem;
+    margin-left: 1.433rem;
+}
+#c_star1 {
+    display: flex;
+    justify-content: space-around;
+    width: 6.7rem;
+    margin-left: 1.433rem;
 }
 #great {
     font-size: 0.6rem;
@@ -115,14 +166,36 @@ h1, h2, h3, p, a, li{
     display: flex;
     justify-content: flex-end;
 }
+#c_feed0 {
+    display: flex;
+    justify-content: space-between;
+    width: 4.6rem;
+    height: 1.55rem;
+    margin-bottom: 0.578rem;
+}
+#c_feed1 {
+    width: 2.6rem;
+    line-height: 1.1rem;
+    height: auto;
+    align-items: center;
+}
 .feedback{
     background-color: var(--main-color);
     width: 5rem;
     height: 5rem;
+    width: 80px;
+    height: 80px;
     flex-shrink: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-radius: 0.6rem;
+    align-items: center;
+}
+.feedback0 {
+    width: 6.024rem;
+    height: 5.62rem;
+    
 }
 #feedback_photo {
     width: 1.5422rem;
@@ -130,17 +203,23 @@ h1, h2, h3, p, a, li{
     border-radius: 1.5422rem;
 }
 #feedback_name {
+    line-height: 0.6rem;
+    margin-top: 0.193rem;
     font-weight: 600;
     font-size: 0.5rem;
+    text-align: left;
 }
 #feedback_work {
     font-size: 0.3rem;
     font-weight: 600;
+    text-align: left;
+    line-height: 0.4rem;
 }
 #feedback_text {
     font-size: 0.5rem;
     font-weight: 400;
     line-height: normal;
+    text-align: left;
 }
 /*ABOUT US*/
 .slogan_sup{
@@ -161,7 +240,7 @@ h1, h2, h3, p, a, li{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     margin-bottom: 1.0rem;
-    color: #8D8D8D;
+    color: var(--text-color);
 }
 #button_about_us {
     margin-top: 2.5rem;
@@ -261,7 +340,7 @@ h1, h2, h3, p, a, li{
     margin-bottom: 3.4rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
-    color: #8D8D8D;
+    color: var(--text-color);
 }
 .link2{
     display: inline-flex;

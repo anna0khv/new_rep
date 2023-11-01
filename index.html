@@ -11,19 +11,19 @@
 
 <body>
     <header>
-        <div>
-            <a href="#home"><img src="photo1.jpg" alt="Логотип"></a>
-            <button id="button0"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="25" viewBox="0 0 29 25" fill="none">
-                <path d="M21.0066 12.7014H9.00659" stroke="#E2E2E2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M24.0066 5.70142H6.00659" stroke="#E2E2E2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M24.0066 19.7014H6.00659" stroke="#E2E2E2" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg></button>
+        <div id ="div_nav">
+            <a href="#home">
+                <img src="/img/Group 2179.svg" alt="Логотип">
+            </a>
+            <button id="button0">
+                <img src="/img/button.svg" alt="">
+            </button>
             <nav>
                 <a href="#home" class ="c_nav">Home</a>
                 <a href="#about" class ="c_nav">About</a>
                 <a href="#sevices" class ="c_nav">Sevices</a>
                 <a href="#projects" class ="c_nav">Projects</a>
-                <a href="#" class ="c_nav">Contact us</a>
+                <a href="#" class ="c_nav" id ="contact_us">Contact us</a>
                 
             </nav>
         </div>
@@ -39,23 +39,47 @@
             <div class ="c_button_s" >
                 <a href="#" class="link_start">Start Project</a>
             </div>
+
+            <div id="relative_block">
+                <div class = "c_star">
+                    <div id="c_star0">
+                        <img src="img/star.svg" alt="">
+                        <p id ="great">GREAT PROJECT</p>
+                    </div>
+                    <div id="c_star1">
+                        <p id = "value">800+</p>
+                        <p d = "done">Done</p>
+                    </div>
+                </div>
+
+                <div id="start_block">
+                    <img src="img/photo1.jpeg" alt="" id="start_img">
+                </div>
+                
+                <div id="re1">
+                    <div class = "c_feed">
+                        <article class = "feedback">
+                            <div class = "feedback0">
+                                <div id="c_feed0">
+                                    <img src="img/adams.jpeg" alt="Bill's Adams photo" id = "feedback_photo">
+                                    <div id="c_feed1">
+                                        <p  id = "feedback_name">Bill Adams</p>
+                                        <p  id = "feedback_work">CEO UpTech</p>
+                                    </div>
+                                </div>
+                                
+                                <p id = "feedback_text">
+                                “ This team is really the best in its field,I don't regret working with them, and will come back again thanks “
+                                </p>
+                            </div>
+                        </article>  
+                    </div>
+                </div>
+            </div>
+            
+            
             <div id = "start_div" >
-                <div class = "c_star" id = "block">
-                    <img src="star.jpg" alt="">
-                    <p id = "great">GREAT PROJECT</p>
-                    <p id = "value">800+</p>
-                    <p d = "done">Done</p>
-                </div>
-                <div class = "c_feed">
-                    <article class = "feedback">
-                        <img src="img/adams.jpeg" alt="Bill's Adams photo" id = "feedback_photo">
-                        <p  id = "feedback_name">Bill Adams</p>
-                        <p  id = "feedback_work">CEO UpTech</p>
-                        <p id = "feedback_text">
-                        “ This team is really the best in its field,I don't regret working with them, and will come back again thanks “
-                        </p>
-                    </article>
-                </div>
+                
             </div>
         </section>
         <section>
