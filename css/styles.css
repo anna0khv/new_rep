@@ -67,6 +67,7 @@ h1, h2, h3, p, a, li{
 #we1 {
     margin-left: 2.5rem;
     margin-right: 2.5rem;
+    margin-bottom: 1.0rem;
 }
 #buttons {
     display: flex;
@@ -259,11 +260,11 @@ h1, h2, h3, p, a, li{
     margin-right: 11.2rem;
 }
 .c_text {
-    text-align: left;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     margin-bottom: 1.0rem;
     color: var(--text-color);
+    text-align: left;
 }
 .button_about_us {
     margin-top: 2.5rem;
@@ -329,6 +330,11 @@ h1, h2, h3, p, a, li{
     color: var(--text-color);
     text-align: left;
     margin-bottom: 2.7rem;
+}
+#read_div{
+    display: flex;
+    justify-content: start;
+    margin-left: 2.5rem;
 }
 #sevices {
     margin-top: 10.0rem;
@@ -407,6 +413,14 @@ h1, h2, h3, p, a, li{
     font-style: normal;
     font-weight: 700;
     text-align: left;
+}
+.square_text {
+    margin-top: 2.7rem;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    width: 11.2rem;
 }
 /*Testimonial - People talk about us*/
 #testimonial {
