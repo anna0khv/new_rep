@@ -12,7 +12,7 @@
 }
 body {
     background-color: var(--main-color);
-    
+    width: 39rem;
 }
 footer {
     background-color: var(--footer-color);
@@ -30,6 +30,9 @@ h1, h2, h3, p, a, li{
     margin-top: 4.0rem;
     margin-left: 2.5rem;
     margin-right: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 34rem;
 }
 #button0 {
     background-color: var(--main-color);
@@ -52,7 +55,7 @@ h1, h2, h3, p, a, li{
     font-size: 2.8rem;
     font-weight: 800;
     line-height: normal;
-    margin-top: 10.2rem;
+    margin-top: 6.9rem;
     margin-bottom: 2.0rem;
 }
 #home_text{
@@ -307,20 +310,15 @@ h1, h2, h3, p, a, li{
     color: var(--text-color);
 }
 .button0 {
-    
     border-radius: 1.5rem;
-    
-    color: var(--main-color);
     background-color: var(--text-color);
-    
-    
     display: flex;
     padding: 0.625rem 2.1875rem;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0.625rem;
-    
+    width: 18.7rem;
+    height: 8.8rem;
+    margin: 4.5rem 17.7rem 8.0rem 2.6rem;
 }
 /*Our Services Perfect and Fast Movement*/
 #read {
@@ -393,26 +391,40 @@ h1, h2, h3, p, a, li{
     margin-bottom: 3.9rem;
 
 }
-.square2{
+.id0 {
     background-image: url("/img/Design.jpeg");
-    background-size: 187.5px 187.5px;
-    width: 187.5px;
-    height: 187.5px;
+}
+.id1 {
+    background-image: url("/img/cloud.jpeg");
+}
+.id2 {
+    background-image: url("/img/design1.jpeg");
+}
+.square2{
+    background-size: auto;
+    width: 300px;
+    height: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 1.875rem;
+    border-radius: 3rem;
     margin:0 auto;
     display: table;
     margin-bottom: 5.4rem;
 }
+
 .square2_text{
     display: table-cell;
     vertical-align: bottom;
     font-family: Quicksand;
-    font-size: 1.5rem;
+    
     font-style: normal;
     font-weight: 700;
     text-align: left;
+}
+.square_p{
+    margin-left: 2.4rem;
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
 }
 .square_text {
     margin-top: 2.7rem;
@@ -430,12 +442,22 @@ h1, h2, h3, p, a, li{
 #people1 {
     margin-bottom: 3.5rem;
 }
+#c_feedback2_div{
+    display: flex;
+    justify-content: space-between;
+    width: 19.8rem;
+    padding-top: 4.0rem;
+    margin-left: 4.0rem;
+    margin-bottom: 3.5rem;
+    align-items: center;
+}
 .c_feedback2 {
     width: 340px;
     height: 257px;
     border-radius: 20px;
     background: #0B0F15;
     margin:0 auto;
+    margin-bottom: 14.7rem;
 }
 #c_feedback2_photo {
     width: 7rem;
@@ -456,6 +478,7 @@ h1, h2, h3, p, a, li{
     font-weight: 400;
     line-height: 2.4rem;
     text-align: left;
+    margin: auto 2rem 4rem 4rem;
 }
 /*footer*/
 .c_footer_h2 {
@@ -464,6 +487,7 @@ h1, h2, h3, p, a, li{
     font-style: normal;
     font-weight: 700;
     line-height: 130%;
+    margin-bottom: 0.54rem;
 }
 .c_footer_li {
     font-family: Quicksand;
@@ -471,6 +495,7 @@ h1, h2, h3, p, a, li{
     font-style: normal;
     font-weight: 400;
     line-height: 130%;
+    margin-bottom: 0.54rem;
 }
 #copyright {
     font-size: 1.4rem;
@@ -478,6 +503,8 @@ h1, h2, h3, p, a, li{
     font-weight: 400;
     line-height: normal;
     text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 7rem;
 }
 .c_icon{
     width: 3.6rem;
@@ -492,4 +519,19 @@ h1, h2, h3, p, a, li{
 }
 .c_icon_a {
     vertical-align: middle;
+}
+#c_ic0 {
+    display: flex;
+    justify-content: space-between;
+    width: 28rem;
+    margin: 9rem auto 2rem auto;
+}
+#flex_div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 3.4rem 9.0rem 2.6rem;
+    justify-content: space-between;
+}
+.flex_div0 {
+    margin-top: 4.5rem;
 }
