@@ -12,7 +12,6 @@
 }
 body {
     background-color: var(--main-color);
-    width: 39rem;
 }
 footer {
     background-color: var(--footer-color);
