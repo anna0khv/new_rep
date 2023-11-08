@@ -17,6 +17,7 @@ body {
 footer {
     background-color: var(--footer-color);
     text-align: left;
+    padding-top: 2rem;
 }
 h1, h2, h3, p, a, li{
     color: var(--text-color);
@@ -24,6 +25,9 @@ h1, h2, h3, p, a, li{
     font-size: 1.4rem;
     text-decoration: none;
     line-height: 2.4rem;
+}
+img {
+    object-fit: cover;
 }
 /*HEADER*/
 #div_nav {
@@ -64,8 +68,33 @@ h1, h2, h3, p, a, li{
     margin-right: 2.2rem;
     color: var(--text-color);
 }
-#link_start0 {
-    
+#decor0{
+    position: absolute;
+    left: 382px;
+    top: 131px;
+}
+#decor1{
+    position: absolute;
+    left: 0px;
+    top: 354px;
+}
+#decor2{
+    position: absolute;
+    left: 277px;
+    top: 428px;
+    z-index: 9;
+}
+#decor3{
+    position: absolute;
+    left: 20.93px;
+    top: 608px;
+    z-index: 9;
+}
+#decor4{
+    position: absolute;
+    left: 27px;
+    top: 1179.23px;
+    z-index: 9;
 }
 #we1 {
     margin-left: 2.5rem;
@@ -94,6 +123,8 @@ h1, h2, h3, p, a, li{
     border-radius: 2.4rem;
     background: #E2E2E2;
     display: flex;
+    
+    box-shadow: 0px 4px 8px 0px rgba(55, 125, 255, 0.50);
 }
 #but0 {
     display: flex;
@@ -318,7 +349,7 @@ h1, h2, h3, p, a, li{
     align-items: center;
     width: 18.7rem;
     height: 8.8rem;
-    margin: 4.5rem 17.7rem 8.0rem 2.6rem;
+    margin: 2.5rem 17.7rem 8.0rem 2.6rem;
 }
 /*Our Services Perfect and Fast Movement*/
 #read {
