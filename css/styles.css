@@ -13,6 +13,7 @@
 body {
     background-color: var(--main-color);
     width: 390px;
+    
 }
 footer {
     background-color: var(--footer-color);
