@@ -1,0 +1,43 @@
+body{
+    width: auto;
+}
+h1 {
+    text-align: center
+  }
+  
+  form {
+    max-width: 30%;
+    margin-inline: auto;
+  }
+  
+  svg{
+    vertical-align: middle;
+  }
+  
+  input[type="submit"],
+  button {
+    margin-top: 1em;
+    margin-right: 2em;
+    transition: transform 1s, background-color 0.5s;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background-color: tomato;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    transform: initial;
+    background-color: lightgray;
+  }
+  legend, label{
+    color: aliceblue;
+  }
+  #div_nav{
+    width: auto;
+  }
+  .reset_btn{
+    margin-bottom: 5rem;
+  }
