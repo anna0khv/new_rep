@@ -41,3 +41,8 @@ h1 {
   .reset_btn{
     margin-bottom: 5rem;
   }
+  .write{
+    color: tomato;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
