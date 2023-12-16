@@ -12,7 +12,7 @@
 }
 body {
     background-color: var(--main-color);
-    width: 390px;
+   
     
 }
 footer {
@@ -37,7 +37,7 @@ img {
     margin-right: 2.5rem;
     display: flex;
     justify-content: space-between;
-    width: 34rem;
+    /*width: 34rem;*/
 }
 #button0 {
     background-color: var(--main-color);
@@ -71,7 +71,7 @@ img {
 }
 #decor0{
     position: absolute;
-    left: 382px;
+    left: 368px;
     top: 131px;
 }
 #decor1{
@@ -160,20 +160,14 @@ img {
     margin-top: 5.0rem;
     margin-bottom: 10.0rem;
 }
-#start_img {
-    width: 33rem;
-    height: 22.4rem;
-    border-radius: 1.2rem;
-    margin:0 0;
-    position: absolute;
-}
+
 #relative_block {
     position: absolute;
     justify-content: center;
     display: flex;
     justify-content: start;
     align-items: start;
-    margin: 5.0rem 2.5rem 10rem 2.5rem;
+    margin: 5.0rem 2.5rem 10rem 0rem;
 }
 #re1 {
 
@@ -190,6 +184,14 @@ img {
     z-index: -1;
     position: absolute;
     padding: 1rem;
+}
+#start_img {
+    width: 33rem;
+    height: 22.4rem;
+    border-radius: 1.2rem;
+    margin:0 0;
+    position: absolute;
+    /*left:-1.5rem;*/
 }
 .c_star{
     background-color: var(--main-color);
@@ -300,6 +302,7 @@ img {
     margin-bottom: 1.0rem;
     color: var(--text-color);
     text-align: left;
+    max-width: 61rem;
 }
 .button_about_us {
     margin-top: 2.5rem;
@@ -373,7 +376,7 @@ img {
 #perfect {
     margin-bottom: 3.5rem;
 }
-#ul {
+.flex_new_all {
     margin-bottom: 2.7rem;
 }
 /*Our Portfolio What do we do*/
@@ -566,4 +569,72 @@ img {
 }
 .flex_div0 {
     margin-top: 4.5rem;
+}
+
+/*RWD*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.c_nav{
+    
+    margin: auto 2.5rem;
+}
+#contact_us{
+    margin-right: 0;
+}
+#div_nav img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+.section_0 {
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+}
+.abz{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    max-width: 124rem;
+    margin: 0 auto;
+}
+.flex_abz{
+    max-width: 61rem;
+}
+.flex_new_all{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    
+}
+.flex_new{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 56.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex_mobile{
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    max-width: 123.8rem;
+    margin: 0 auto;
+}
+.c_feedback2{
+    display: flex;
+    
+    justify-content: space-between;
+    max-width: 124rem;
+    margin: 0 auto;
 }

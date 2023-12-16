@@ -1,0 +1,123 @@
+@media screen and (max-width:1000px) {
+    
+    nav{
+        display: none;
+    }
+    #contact_us{
+        display: none;
+    }
+    .dop_article{
+        display: none;
+    }
+    .delete{
+        display: none;
+    }
+}
+@media screen and (min-width:1001px) {
+    
+    #button0{
+        display: none;
+    }
+    #div_nav{
+        display: flex;
+        justify-content: none;
+        margin-top: 7.2rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    #div_nav img {
+        width: 136px;  
+        height: 50px; 
+    }
+    #slogan_main{
+        font-size: 6.2rem;
+        margin: 6.4rem 30rem 2.4rem 30rem;
+    }
+    #home_text{
+        font-size: 2rem;
+        margin: auto 33rem 3.2rem 33rem;
+    }
+    .c_button_start {
+        width: 20.1rem;
+        margin: auto;
+    }
+    .link_start {
+        font-size: 1.6rem;
+        padding: 1.2rem 5rem;
+    }
+    #start_img {
+        width: 73.9rem;
+        height: 50.1rem;
+        border-radius: 5rem;
+    }
+    h2{
+        font-size: 2.4rem;
+    }
+    #about, #sevices{
+        margin-bottom: 2.0rem;
+    }
+    .slogan_sup{
+        font-size: 5.5rem;
+        line-height: normal;
+        margin-bottom: 3.8rem;
+    }
+    .c_photo {
+        width: 56.5rem;
+        height: 40.2rem;
+        border-radius: 2.4rem;
+    }
+    .c_text{
+        font-size: 2rem;
+    }
+    #buttons{
+        width: 40.6rem;
+        margin-bottom: 2.4rem;
+    }
+    .abz{
+        flex-direction: row-reverse;
+    }
+    #about_photo {
+        margin-top: 0;
+    }
+    #buttons{
+        margin-left: 2.5rem;
+    }
+    #we1, #text2{
+        font-size: 2rem;
+    }
+    #sevices,#perfect , #we1{
+        text-align: left;
+        margin-left: 10rem;
+    }
+    #read_div{
+        justify-content: end;
+    }
+    .flex_new_0{
+        max-width: 52rem;
+    }
+    .flex_abz{
+        margin-bottom: 15.7rem;
+    }
+    #text2{
+        max-width: 67.4rem;
+        margin: auto auto 4.8rem auto;
+    }
+    .flex_new_all{
+        margin-right: 10rem;
+    }
+    .flex_super{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 124rem;
+        margin: 0 auto;
+        margin-bottom: 14.9rem;
+    }
+    .button0{
+        margin-right: 6.8rem;
+        margin-left: 0;
+    }
+    #flex_div{
+        margin: auto 10.3rem;
+    }
+}

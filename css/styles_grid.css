@@ -81,10 +81,6 @@ body {
   display: grid;
   place-items: center;
 }
-.picture .newbutton{
-  
-  
-}
 .newbutton {
   background-color: aliceblue;
   color: black;
