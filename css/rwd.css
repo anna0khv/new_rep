@@ -12,6 +12,18 @@
     .delete{
         display: none;
     }
+    .div_decor_all{
+        display: none;
+    }
+    .star_svg_new{
+        display: none;
+    }
+    .div_decor01{
+        display: none;
+    }
+    .decorf, .decoro{
+        display: none;
+    }
 }
 @media screen and (min-width:1001px) {
     
@@ -45,11 +57,7 @@
         font-size: 1.6rem;
         padding: 1.2rem 5rem;
     }
-    #start_img {
-        width: 73.9rem;
-        height: 50.1rem;
-        border-radius: 5rem;
-    }
+    
     h2{
         font-size: 2.4rem;
     }
@@ -119,5 +127,139 @@
     }
     #flex_div{
         margin: auto 10.3rem;
+    }
+    #decor0{
+        left: 712px;
+        top: 97px;
+    }
+    #start_div{
+        width: 985px;
+    height: 61.5rem;
+    }
+    #start_img {
+        width: 73.9rem;
+        height: 50.1rem;
+        border-radius: 5rem;
+    }
+    
+    #start_block{
+        padding: 5.9rem;
+        width: 248px;
+    }
+    .div_decor3{
+        display: none;
+    }
+    .div_decor2{
+        display: none;
+    }
+    #start_div{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .div_decor_all{
+        margin-top: 40px;
+        height: 53.9rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 600px;
+    }
+    .c_star{
+        position: relative;
+        top: 83px;
+        left: 17px;
+        border-radius: 16px;
+        width: 175px;
+        height: 95px;
+    }
+    #c_star0{
+        width: 12.3rem;
+        margin-left: 2rem;
+        margin-top: 1.5rem;
+    }
+    .star_svg{
+        display: none;
+    }
+    #great{
+        font-size: 1.2rem;
+    }
+    #c_star1 {
+        width: 12.4rem;
+        margin-left: 2rem;
+        margin-top: 0.7rem;
+    }
+    #value, #done{
+        font-size: 2.4rem;
+    }
+    #re1{
+        position: relative;
+        top: 401px;
+        left: 604px;
+        border-radius: 16px;
+    }
+    .feedback{
+        width: 166px;
+        height: 166px;
+        border-radius: 16px;
+    }
+    .feedback0{
+        width: 125px;
+        height: 114px;
+    }
+    #c_feed0{
+        width: 9.3rem;
+    height: 3.2rem;
+    margin-bottom: 1.2rem;
+    }
+    #feedback_photo{
+        width: 32px;
+        height: 32px;
+    }
+    #c_feed1{
+        width: 51px;
+        
+    }
+    #feedback_name{
+        font-size: 1rem;
+        margin-top:7px;
+        margin-bottom: 5px;
+    }
+    #feedback_work{
+        font-size: 6px;
+    }
+    #feedback_text{
+        font-size: 10px;
+    }
+    #decor4{
+        display: none;
+    }
+    #decor0{
+        display: none;
+    }
+    .div_decor01{
+        position: absolute;
+        top: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .decorf, .decoro{
+        position: absolute;
+        z-index: -1;
+        
+    }
+    .decorf{
+        margin-top: -15px;
+    }
+    .decoro{
+        margin-top: 350px;
+    }
+    .decor_of{
+        width: calc(100% - 100px);
+        display: flex;
+        justify-content: space-between;
+    }
+    .div_decorf{
+        align-items: flex-end;
     }
 }

@@ -70,32 +70,35 @@ img {
     color: var(--text-color);
 }
 #decor0{
-    position: absolute;
-    left: 368px;
+    position: relative;
+    left: 48.5%;
     top: 131px;
 }
 #decor1{
     position: absolute;
-    left: 0px;
+    left: -28px;
     top: 354px;
 }
+.decor1{
+    width: 1.6rem;
+    height: 1.6rem;
+    object-fit: fill;
+}
 #decor2{
-    position: absolute;
+    /*position: absolute;
     left: 277px;
     top: 428px;
-    z-index: 9;
+    z-index: 9;*/
+    object-fit: none;
 }
 #decor3{
-    position: absolute;
-    left: 20.93px;
-    top: 608px;
-    z-index: 9;
+    object-fit: none;
 }
 #decor4{
     position: absolute;
     left: 27px;
-    top: 1179.23px;
-    z-index: 9;
+    top: 1230.23px;
+    z-index: -9;
 }
 #we1 {
     margin-left: 2.5rem;
@@ -159,6 +162,9 @@ img {
     margin:0 auto;
     margin-top: 5.0rem;
     margin-bottom: 10.0rem;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 #relative_block {
@@ -597,6 +603,7 @@ nav{
     flex-direction: column;
     align-items: center;
     margin-left: 5%;
+    position: relative;
 }
 .abz{
     display: flex;
@@ -637,4 +644,17 @@ nav{
     justify-content: space-between;
     max-width: 124rem;
     margin: 0 auto;
+}
+.div_decor3{
+    display: flex;
+    flex-direction: column-reverse;
+
+    width: 99px;
+
+}
+.div_decor2{
+    display: flex;
+    flex-direction: column;
+
+    width: 99px;
 }
