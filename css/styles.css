@@ -4,6 +4,7 @@
     --text-color: rgb(226,226,226);
     --text-new-color: rgb(226,226,226);
     --footer-color: rgb(56,54,56);
+    --select-color: #0E1D34;
     font-size: 62.5%;
     text-align: center;
 }
@@ -658,3 +659,163 @@ nav{
 
     width: 99px;
 }
+
+/*ПСЕВДОКЛАССЫ*/
+.link2, .a_footer{
+    display: inline-block;
+}
+.a_footer, .c_nav, .link_start, .link2, #read, #button0{
+    transition: all 0.3s ease;
+}
+.c_nav, #read, .a_footer, #button0 {
+    transform: scale(1) rotate(0deg); /* Добавьте начальные значения масштаба и поворота */
+    transition: all 0.3s ease;
+}
+
+#contact_us, .link2, #button0 {
+    transform: scale(1) rotate(0deg); /* Добавьте начальные значения масштаба и поворота */
+    transition: all 0.3s ease;
+}
+::selection{
+    background-color: coral;
+    color: #0B0F15;
+}
+.c_nav:hover, #read:hover, .a_footer:hover{
+    color:coral;
+    transform: scale(1.1) rotate(10deg);
+    background-color: var(--select-color);
+}
+.c_nav:active, #read:active{
+    border: 1px solid rgb(56,54,56);
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.5);
+}
+.a_footer:active, #button0:active{
+    border: 1px solid rgb(209, 206, 209);
+    border-radius: 5px;
+    
+}
+.a_footer:active{
+    box-shadow: 0px 0px 15px 0px rgba(246, 246, 246, 0.5);
+}
+#contact_us:hover, .link2:hover, #button0:hover{
+    background-color: var(--select-color);
+    color: var(--text-color);
+    transform: scale(1.1) rotate(10deg) !important;
+}
+.link_start:focus{
+    box-shadow: 0px 4px 15px 0px rgba(255, 255, 255, 0.5);
+}
+#contact_us:focus, .link2:focus{
+    box-shadow: 0px 4px 15px 0px rgba(55, 125, 255, 0.50);
+}
+#contact_us:active, .link2:active, .link_start:active, #button0:active{
+    box-shadow: 0px 0px 16px 8px rgba(55, 125, 255, 0.50);
+}
+.link_start:hover{
+    background-color: #9e9e9e;
+    transform: scale(1.1) rotate(10deg);
+}
+/* Стили для анимации загрузки */
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    
+    animation: spin 3s ease-out 0s forwards;
+    position: absolute;
+}
+.loader {
+    color: #ffffff;
+    font-size: 45px;
+    text-indent: -9999em;
+    overflow: hidden;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    position: relative;
+    transform: translateZ(0);
+    animation: mltShdSpin 1.7s infinite ease, round 1.7s infinite ease;
+    animation: spin 3s ease-out 0s forwards;
+    top: 130px;
+  }
+.opaloader {
+    visibility: hidden;
+    animation: fadeIn 0.5s ease-out 3s forwards;
+    
+    
+}
+
+@keyframes spin {
+    from {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+    to {
+        visibility: hidden;
+        opacity: 1;
+        transform: rotate(1440deg);
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+@keyframes mltShdSpin {
+    0% {
+      box-shadow: 0 -0.83em 0 -0.4em,
+      0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em,
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    5%,
+    95% {
+      box-shadow: 0 -0.83em 0 -0.4em, 
+      0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 
+      0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+    10%,
+    59% {
+      box-shadow: 0 -0.83em 0 -0.4em, 
+      -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, 
+      -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+    }
+    20% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em,
+       -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, 
+       -0.749em -0.34em 0 -0.477em;
+    }
+    38% {
+      box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em,
+       -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, 
+       -0.82em -0.09em 0 -0.477em;
+    }
+    100% {
+      box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 
+      0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+    }
+  }
+  
+  @keyframes round {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg) }
+  }
+/* Стили для нечетных элементов списка */
+.flex_div0 ul li:nth-child(odd) {
+    color: #ffffff;
+    background-color: #0B0F15;
+}
+
+.flex_div0 ul li:nth-child(even) {
+    color: #0B0F15;
+    background-color: #FFF;
+}
+

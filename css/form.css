@@ -46,3 +46,52 @@ h1 {
     font-size: 1rem;
     margin-bottom: 2rem;
   }
+  /*лр 9*/
+  form {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #1a237e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+legend {
+    font-size: 1.6em;
+    font-weight: bold;
+    color: white; 
+}
+label {
+    color: white; 
+}
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid white; 
+    border-radius: 4px;
+    color: white; 
+    background-color: #1a237e;
+}
+input::placeholder,
+textarea::placeholder {
+    color: #bbb;
+    font-style: italic;
+}
+input:required,
+select:required {
+    border-color: #ff5e5e; 
+}
+input:checked{
+  color: #ffd600 !important; 
+}
+.button0{
+  transform: rotate(30deg) scale(1.5) skewX(20deg) skewY(20deg);
+}
