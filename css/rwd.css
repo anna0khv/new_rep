@@ -24,6 +24,10 @@
     .decorf, .decoro{
         display: none;
     }
+    #feedback_photo{
+        width: 15.41px;
+        height: 15.41px;
+    }
 }
 @media screen and (min-width:1001px) {
     
@@ -261,5 +265,9 @@
     }
     .div_decorf{
         align-items: flex-end;
+    }
+    #feedback_photo{
+        width: 32px;
+        height: 32px;
     }
 }
