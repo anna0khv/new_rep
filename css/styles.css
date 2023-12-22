@@ -436,13 +436,13 @@ img {
 
 }
 .id0 {
-    background-image: url("/img/Design.jpeg");
+    background-image: url("/img/Design_1.webp");
 }
 .id1 {
-    background-image: url("/img/cloud.jpeg");
+    background-image: url("/img/cloud.webp");
 }
 .id2 {
-    background-image: url("/img/design1.jpeg");
+    background-image: url("/img/design1.webp");
 }
 .square2{
     background-size: auto;
@@ -819,5 +819,9 @@ nav{
 .flex_div0 ul li:nth-child(even) {
     color: #0B0F15;
     background-color: #2e3658;
+}
+.sto{
+    height: 100px;
+    width: 100px;
 }
 
