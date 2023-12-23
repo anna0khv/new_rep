@@ -718,6 +718,9 @@ nav{
     background-color: #9e9e9e;
     transform: scale(1.1) rotate(10deg);
 }
+.c_footer_li{
+    color: #E2E2E2 !important;
+}
 /* Стили для анимации загрузки */
 .loader {
     width: 48px;
